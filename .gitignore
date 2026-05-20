@@ -1,0 +1,30 @@
+# Entorno virtual y herramientas
+venv/
+.claude/
+mmet_history/
+.mmet_cache/
+.mmet_logs/
+node_modules/
+dist/
+build/
+graficos/
+turnos_csv/
+
+
+
+
+# Datos de pacientes y archivos temporales de LibreOffice/Excel
+*.xlsx
+*.csv
+.~lock.*
+*.pptx
+*.docx
+*.odt
+*.ods
+*.tmp
+*.log
+*.js
+*.json
+
+
+*.png
