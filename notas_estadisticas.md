@@ -1,0 +1,13 @@
+Indicadores posibles:
+- Cantidad de pacientes atendidos con y sin obra social. Para ello es necesario tomar como referencia todos los pacientes que se encuentran dentro del informe de turnos
+- Pacientes atendidos por localidad. En particular los que se encuentran dentro de los cinco municipios de la localidad. Los datos se encuentran dentro de lo que es DETALLE DE AGENDAS
+- Pacientes que tienen obra social y pertenecen a la red y fueron atendidos(Cañuelas, San Vicente, Gral. Las Heras, Marcos Paz, Pte. Perón son los que pertenecen a la red). Para ello usar la columna que describe al partido en Detalle Agenda
+- Pacientes que no tienen obra social y pertenecen a la red y fueron atendidos(Similar al punto anterior)
+- Pacientes que no fueron atendidos, pertenecen a la red y tienen obra social(Similar al punto anterior)
+- Cantidad de pacientes que no asistieron pero el turno no fue cancelado(Tomar aquellos casos donde haya inasistencia)
+- Cantidad de turnos que fueron cancelados
+- Servicios que más tiempo insumen en la atención. Para ello utilizar consolidado_pivoteado.
+- Promedio de edad pacientes que se atienden y que no tienen obra social
+- Promeidio de edad pacientes que se atienden y tienen obra social
+- Cantidad de atenciones por servicio 
+- Cantidad promedio de atenciones en cada mes por servicio tomando detalle de agendas
